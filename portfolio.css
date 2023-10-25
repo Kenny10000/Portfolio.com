@@ -1,0 +1,340 @@
+.okay{background: rgba(0,0,0,0.5)url(image/okay.png);
+	background-blend-mode: darken;
+	background-size: cover;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+.d{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.yo{
+	position:right;
+	color: white;
+	font-family: calibri;
+	font-weight: 400;
+	text-align: right;
+	font-size: 15px;
+	line-height: 1.0;
+	text-decoration: none;
+	width: auto;
+	height: auto;
+}
+.button{
+	margin: 4px 2px;
+	background-color:red;
+	text-align: center;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	font-size: 15px;
+	padding: auto;
+	color: white;
+	font-family: calibri;
+	border: none;
+	display: inline-block;
+	border-radius: 10px;
+	float: right;
+}
+.button1{
+	background-color: white;
+	color: red;
+}
+.button1:hover{
+	background-color: red;
+	color: white;
+}
+.yo:hover{
+	color: yellow;
+	font-size: 17px;
+}
+.yo:active{
+	color: rgb(255, 125, 0);
+	font-size: 13px;
+}
+.hey{
+	position: right;
+	float: right;
+	text-align: right;
+	width: auto;
+	height: auto;
+}
+aside{
+	width: 40%;
+	height: 10%;
+	position: center;
+	margin: auto;
+	padding: none;
+	border-radius: 10px;
+	background-color: white;
+	animation-name: ariana;
+	animation-duration: 10s;
+}
+@keyframes ariana {
+	from {background-color: white;}
+	to {background-color: rgb(255, 50, 25);}
+}
+article{
+	width: 60%;
+	height: auto;
+	position: center;
+	margin: auto;
+	padding-top: 10px;
+	border-radius: 8px;
+	background-image:url(praiz.png);
+	background-blend-mode: darken;
+	background-size: 10%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: white;
+	border-style: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	animation-name: examples;
+	animation-duration: 5s;
+
+}
+@keyframes examples {
+	from {background-color: white;}
+	to {background-color: yellow;}
+}
+.bby{
+	font-size: 25px;
+	font-family: Comic Sans MS;
+	color: rgb(255, 50, 25);
+	line-height: 1,5;
+	text-align: center;
+	animation-name: grande;
+	animation-duration: 10s;
+}
+@keyframes grande {
+	from {color: rgb(255, 50, 25);}
+	to {color: white}
+}
+
+.boss{
+	position: left;
+	width: 20%;
+	height: 20%;
+
+}
+.arpa{
+	font-size: 25px;
+	font-family:French Script MT;
+	font-weight: 600;
+	color: black;
+	text-align: center;
+	line-height: 1.0;
+}
+
+.available{
+	width: 75%;
+	height: 0%;
+	padding: none;
+	margin: auto;
+
+}
+.pics{
+	width: 20%;
+	height: 20%;
+	margin: auto;
+}
+.pics:hover{
+	width: 22%;
+	height: 22%;
+	margin: auto;
+}
+.servicesbg
+{background: rgba(0,0,0,0.9)url(image/olu.jpg);
+	background-blend-mode: darken;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.servicesone{
+	width: 100%;	
+	height: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: auto;
+	position: center;
+}
+.praiztext{
+	font-family: freestyle script;
+	font-size: 80px;
+	font-weight: 500;
+	color: rgb(255, 250, 0);
+	margin: auto;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-decoration-thickness: 2px;
+	text-decoration-color: white;
+
+}
+.pop{
+	width: 20%;
+	height: 100%;
+	position: left;
+	background-color: white;
+	border-radius: 10px;
+	border-style: ridge;
+	margin: auto;
+
+}
+.poptext{
+	font-family: algerian;
+	color: black;
+	font-size: 15px;
+	text-align: center;
+}
+.listtext{
+	font-family: calibri;
+	font-size: 20px;
+	color: blue;
+	font-weight: 600;
+}
+.over{
+	width: 60%;
+	height: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgb(200, 200, 200);
+	margin: auto;
+	border-radius: 10px;
+}
+.bilie{
+	width: 30%;
+	height: 30%;
+	position: relative;
+
+}
+.baddest{
+	font-family: Geometr212 BkCn BT;
+	font-size: 15px;
+	color: rgb(255, 50, 0);
+	font-weight: 700;
+	text-align: center;
+	margin: auto;
+}
+.aboutbg{background: rgba(0,0,0,0.5)url(olaps.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-blend-mode: darken;
+	animation-name: olaps;
+	animation-duration: 10s;
+	padding: auto;
+}
+@keyframes olaps{
+	from{background: rgba(0,0,0,0.5)url(olaps.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-blend-mode: darken;}
+	to{background: rgba(0,0,0,0.5)url(about.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-blend-mode: darken;}
+}
+.aboutus{
+	font-family: freestyle script;
+	font-size: 50px;
+	color: white;
+	font-weight: 600;
+	line-height: 0.8;
+	text-decoration: underline;
+	text-shadow: 2px 3px 3px black;
+	text-align: center;
+	display: inline-block;
+}
+.musk{
+	width: 100%;
+	height: 30%;
+	margin: auto;
+
+}
+.bold{
+	color: black;
+	font-family: arial black;
+	font-size: 15px;
+	text-align: left;
+	font-weight: 100;
+}
+.rabbit{
+	width: 30%;
+	height: 20%;
+	margin: auto;
+	background-color:white;
+	text-align: center;
+	font-size: 15px;
+	padding: 10px;
+	color: darkred;
+	font-family: calibri;
+	font-weight: 600;
+	display: inline-block;
+	border-radius: 10px;
+}
+.margin{
+	width: 100%;
+	height: 50%;
+	background-color: black;
+	float: left;
+	padding-left: 10px;
+}
+.yetty{
+	font-family: calibri;
+	font-size: 20px;
+	color: white;
+	font-weight: 100;
+}
+.totori{
+	margin: 4px 2px;
+	background-color:blue;
+	text-align: center;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	font-size: 15px;
+	padding: auto;
+	color: white;
+	font-family: calibri;
+	border: none;
+	display: inline-block;
+	border-radius: 5px;
+}
+.totori1{
+	background-color: white;
+	color: blue;
+}
+.totori1:hover{
+	background-color: blue;
+	color: white;
+}
+.nuture{
+	margin: 4px 2px;
+	background-color:green;
+	text-align: center;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	font-size: 15px;
+	padding: auto;
+	color: white;
+	font-family: calibri;
+	border: none;
+	display: inline-block;
+	border-radius: 5px;
+}
+.nuture1{
+	background-color: white;
+	color: green;
+}
+.nuture1:hover{
+	background-color: green;
+	color: white;
+}
